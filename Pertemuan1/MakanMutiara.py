@@ -1,3 +1,8 @@
+import os
+import subprocess
+
+exe_path = r"solution\output\MenelusuriTerowongan.exe"
+testcase_dir = r"D:\Users\r2n0c\Vitalitas\Kuliah_IF_Undip\Praktikum\Asprak\24ASA\Pertemuan1\testcase\testcaseP1"
 # Input nilai awal
 Awal = list(map(int, input().split()))
 N = Awal[0]

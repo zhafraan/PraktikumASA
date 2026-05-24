@@ -25,5 +25,8 @@ def coba(urutan, sisa):
     for x in sisa:
         sisabaru = [y for y in sisa if y != x]
         coba(urutan + [x], sisabaru)
+
+# Mulai rekursi dengan semua pilihan awal
 coba([], list(range(n)))
+
 print(best[0])
